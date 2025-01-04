@@ -1,17 +1,13 @@
-import 'package:easy_weather/screens/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+
+import 'ui/home_screen.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setPreferredOrientations(
-      [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]).then((_) {
-    runApp(const MyApp());
-  });
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,9 +17,8 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primaryColor: Colors.black,
         primaryIconTheme: const IconThemeData(color: Colors.black),
-        colorScheme: ColorScheme.fromSwatch().copyWith(
-          secondary: Colors.orangeAccent,
-        ),
+        colorScheme: ColorScheme.fromSwatch(),
+        useMaterial3: true,
       ),
       home: const HomeScreen(),
     );
