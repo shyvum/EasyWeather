@@ -1,6 +1,5 @@
-name: easy_weather
-description: Weather App using OpenWeatherMap.org API
-
+name: easyweather
+description: "Is it Sunny, duh?"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -12,13 +11,15 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # build by specifying --build-name and --build-number, respectively.
 # In Android, build-name is used as versionName while build-number used as versionCode.
 # Read more about Android versioning at https://developer.android.com/studio/publish/versioning
-# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: ^3.6.0
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -29,34 +30,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: any
-
-  # The following enable the app to make HTTP Requests over network.
-  # Either use GET or POST as per requirement.
-  http: any
-
-  # The following provides easy access to the platform specific location services.
-  # Use to get current location of the user.
-  geolocator: any
-
-  # The following enables launching a URL in the mobile platform.
-  url_launcher: any
-
-  # The following provides internationalization and localization facilities.
-  # Use to format Date & Time
-  intl: any
-
-  # The following allows sharing content from your Flutter app.
-  share: any
-
-  # The following enables google font support for the application.
-  google_fonts: any
-
-  # The following enables the app to use the device's location services.
-  permission_handler: any
+  http: ^1.2.2
+  geolocator: ^13.0.2
+  url_launcher: ^6.3.1
+  intl: ^0.20.1
+  google_fonts: ^6.2.1
+  permission_handler: ^11.3.1
+  connectivity_plus: ^6.1.1
+  flutter_launcher_icons: ^0.14.2
 
 dev_dependencies:
   flutter_test:
@@ -67,7 +48,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -85,10 +66,10 @@ flutter:
     - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware
+  # https://flutter.dev/to/resolution-aware-images
 
   # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
+  # https://flutter.dev/to/asset-from-package
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
@@ -108,4 +89,4 @@ flutter:
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  # see https://flutter.dev/to/font-from-package
