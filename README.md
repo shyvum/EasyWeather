@@ -1,20 +1,20 @@
 <p align="center">
-  <a href="https://github.com/ShivamGoyal1899/EasyWeather">
+  <a href="https://github.com/shyvum/EasyWeather">
     <img alt="EasyWeather" src="./readme/EasyWeather - 3000x1000.png" width="100%" />
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/ShivamGoyal1899/EasyWeather/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/ShivamGoyal1899/EasyWeather?style=for-the-badge" alt="EasyWeather is released under the GNU General Public License." />
+  <a href="https://github.com/shyvum/EasyWeather/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/shyvum/EasyWeather?style=for-the-badge" alt="EasyWeather is released under the GNU General Public License." />
   </a>
-  <a href="https://github.com/ShivamGoyal1899/EasyWeather/releases">
-    <img src="https://img.shields.io/github/v/release/ShivamGoyal1899/EasyWeather?include_prereleases&style=for-the-badge" alt="Latest Version Available." />
+  <a href="https://github.com/shyvum/EasyWeather/releases">
+    <img src="https://img.shields.io/github/v/release/shyvum/EasyWeather?include_prereleases&style=for-the-badge" alt="Latest Version Available." />
   </a>
-  <a href="https://github.com/ShivamGoyal1899/EasyWeather/archive/master.zip">
-    <img src="https://img.shields.io/github/repo-size/ShivamGoyal1899/EasyWeather?style=for-the-badge" alt="GitHub Repository size." />
+  <a href="https://github.com/shyvum/EasyWeather/archive/master.zip">
+    <img src="https://img.shields.io/github/repo-size/shyvum/EasyWeather?style=for-the-badge" alt="GitHub Repository size." />
   </a>
-  <a href="https://github.com/ShivamGoyal1899/EasyWeather/releases">
-    <img src="https://img.shields.io/github/downloads/ShivamGoyal1899/EasyWeather/total?style=for-the-badge" alt="Total downloads on GitHub." />
+  <a href="https://github.com/shyvum/EasyWeather/releases">
+    <img src="https://img.shields.io/github/downloads/shyvum/EasyWeather/total?style=for-the-badge" alt="Total downloads on GitHub." />
   </a>
 </p>
 <p align="center">
@@ -37,7 +37,7 @@ Show some love 💜 and Star ⭐️ the Repository to support the project.
 
 You can get the EasyWeather up and running on your local dev environment in 5 minutes with these four steps:
 
-1. **Install the Flutter SDK & Android Studio. [Instructions](https://blog.goyalshivam.com/install-flutter-on-windows-and-mac).**
+1. **Install the Flutter SDK & Android Studio. [Instructions](https://blog.shyvum.in/install-flutter-on-windows-and-mac).**
 
 2. **Open Terminal & navigate to the root directory of the project.**
 
@@ -70,7 +70,7 @@ At this point, you’ve got the fully functional EasyWeather App running. For ad
 I've used [Semantic Versioning 2.0.0](https://semver.org/) for versioning throughout the project.
 
 ## :question: Queries / Bugs
-If you got any queries or found a bug, open an [Issue](https://github.com/ShivamGoyal1899/EasyWeather/issues/new) or ping me over on [hey@goyalshivam.com](mailto:hey@goyalshivam.com)
+If you got any queries or found a bug, open an [Issue](https://github.com/shyvum/EasyWeather/issues/new) or ping me over on [hey@shyvum.in](mailto:hey@shyvum.in)
 
 ## :memo: License
 Licensed under the [MIT License](./LICENSE).
